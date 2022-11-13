@@ -4,8 +4,6 @@
   justify-content: center;
   align-items: center;
   text-align: left;
-  height: 100vh;
-  align-self: center;
 }
 
 h1 {
@@ -95,7 +93,6 @@ html {
 .big-div {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 body {
@@ -115,6 +112,7 @@ body {
 @media (min-width: 90em) {
   .desktop {
     display: flex;
+    height: 100vh;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -125,4 +123,13 @@ body {
   .desktop__border-radius-luxury {
     border-radius: 0 10px 10px 0;
   }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
 }/*# sourceMappingURL=style.css.map */

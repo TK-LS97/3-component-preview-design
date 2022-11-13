@@ -21,7 +21,6 @@ html{
 .big-div{
     display:flex;
     justify-content: center;
-    align-items:center;
 }
 
 body{
@@ -41,6 +40,7 @@ body{
 .desktop{
         @include breakpoint-up(large){
             display:flex;
+            height:100vh;
             flex-direction: row;
             justify-content: center;
             align-items: center;
@@ -60,5 +60,8 @@ body{
 
         
     }
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
 
 
