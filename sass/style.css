@@ -1,0 +1,128 @@
+.container {
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  height: 100vh;
+  align-self: center;
+}
+
+h1 {
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+}
+
+button {
+  border-radius: 30px;
+  height: 47px;
+  width: 144px;
+  padding: 10px 30px 10px 30px;
+  background-color: hsl(0deg, 0%, 95%);
+  margin-top: 30px;
+  border-width: 2px;
+  border-color: white;
+}
+
+.orange-sedans {
+  padding: 47px;
+  background-color: hsl(31deg, 77%, 52%);
+  height: 443px;
+  width: 328px;
+  color: hsla(0deg, 0%, 100%, 0.75);
+  border-radius: 10px 10px 0 0;
+}
+
+.sedan-button {
+  color: hsl(31deg, 77%, 52%);
+}
+
+.SUV {
+  padding: 47px;
+  background-color: hsl(184deg, 100%, 22%);
+  height: 443px;
+  width: 328px;
+  color: hsla(0deg, 0%, 100%, 0.75);
+}
+
+.SUV-button {
+  color: hsl(184deg, 100%, 22%);
+}
+
+.Luxury {
+  padding: 47px;
+  background-color: hsl(179deg, 100%, 13%);
+  height: 443px;
+  width: 328px;
+  color: hsla(0deg, 0%, 100%, 0.75);
+  border-radius: 0 0 10px 10px;
+}
+
+.lux-button {
+  color: hsl(179deg, 100%, 13%);
+}
+
+.sedan-button:hover {
+  color: hsl(0deg, 0%, 95%);
+  background-color: hsl(31deg, 77%, 52%);
+  cursor: pointer;
+}
+
+.SUV-button:hover {
+  color: hsl(0deg, 0%, 95%);
+  background-color: hsl(184deg, 100%, 22%);
+  cursor: pointer;
+}
+
+.lux-button:hover {
+  color: hsl(0deg, 0%, 95%);
+  background-color: hsl(179deg, 100%, 13%);
+  cursor: pointer;
+}
+
+/*font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif;
+font-family: 'Outfit', sans-serif; */
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.big-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: hsl(0deg, 0%, 95%);
+  line-height: 1.5;
+  font-size: 0.9375rem;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+}
+
+@media (max-width: 89.9375em) {
+  .mobile {
+    padding: 30px 0 30px 0;
+  }
+}
+
+@media (min-width: 90em) {
+  .desktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .desktop__border-radius-sedan {
+    border-radius: 10px 0 0 10px;
+  }
+  .desktop__border-radius-luxury {
+    border-radius: 0 10px 10px 0;
+  }
+}/*# sourceMappingURL=style.css.map */

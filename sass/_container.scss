@@ -1,0 +1,87 @@
+.container{
+    display:grid;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align:left;
+    height:100vh;
+    align-self: center;
+}
+
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight:700;
+}
+ 
+button{
+    border-radius:30px;
+    height: 47px;
+    width:144px;
+    padding:10px 30px 10px 30px;
+    background-color: $VeryLightGray;
+    margin-top:30px;
+    border-width:2px ;
+    border-color: white;
+}
+
+.orange-sedans{
+    padding:47px;
+    background-color: $BrightOrange;
+    height:443px;
+    width:328px;
+    color:$TransparentWhite;
+    border-radius:10px 10px 0 0;
+    
+}
+
+.sedan-button{
+    
+    color:$BrightOrange; 
+    
+}
+
+.SUV{
+    padding:47px;
+    background-color: $DarkCyan;
+    height:443px;
+    width:328px;
+    color:$TransparentWhite;
+}
+
+.SUV-button{
+    color: $DarkCyan;
+}
+
+.Luxury{
+    padding:47px;
+    background-color: $VeryDarkCyan;
+    height:443px;
+    width:328px;
+    color:$TransparentWhite;
+    border-radius:0 0 10px 10px;
+
+}
+
+.lux-button{
+    color: $VeryDarkCyan;
+}
+
+.sedan-button:hover{
+    color:$VeryLightGray;
+    background-color: $BrightOrange;
+    cursor: pointer;
+    //border-color: white;
+}
+
+.SUV-button:hover{
+    color:$VeryLightGray;
+    background-color:$DarkCyan;
+    cursor: pointer;
+}
+
+
+.lux-button:hover{
+    color:$VeryLightGray;
+    background-color:$VeryDarkCyan;
+    cursor: pointer;
+}
